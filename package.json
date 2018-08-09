@@ -1,6 +1,6 @@
 {
   "name": "nativescript-converters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small utility package with userfull binding converters that can be used in Plain NativeScript applications.",
   "main": "index",
   "typings": "index.d.ts",
