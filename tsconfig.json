@@ -1,27 +1,22 @@
 {
     "compilerOptions": {
-        "noEmitOnError": true,
-        "noEmitHelpers": true,
-        "sourceMap": false,
+        "module": "esnext",
+        "target": "es2017",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
         "removeComments": true,
-        "declaration": false,
         "experimentalDecorators": true,
-        "noUnusedLocals": true,
-        "target": "es5",
-        "module": "commonjs",
-        "outDir": "bin/dist",
+        "declaration": false,
+        "noEmitOnError": false,
+        "noEmitHelpers": true,
+        "noImplicitUseStrict": true,
         "lib": [
             "es6",
-            "dom"
+            "dom",
+            "es2017"
         ],
         "rootDir": ".",
-        "baseUrl": ".",
-        "paths": {
-            "*": [
-                "./node_modules/tns-core-modules/*",
-                "./node_modules/*"
-            ]
-        }
+        "baseUrl": "."
     },
     "exclude": [
         "node_modules",
